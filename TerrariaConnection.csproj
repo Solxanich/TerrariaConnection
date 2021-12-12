@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>TerrariaConnection</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="StartScript\**" />
+    <Compile Remove="TerrariaConnection Project\**" />
+    <Compile Remove="TerrariaConnection\**" />
+    <EmbeddedResource Remove="StartScript\**" />
+    <EmbeddedResource Remove="TerrariaConnection Project\**" />
+    <EmbeddedResource Remove="TerrariaConnection\**" />
+    <None Remove="StartScript\**" />
+    <None Remove="TerrariaConnection Project\**" />
+    <None Remove="TerrariaConnection\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>

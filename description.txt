@@ -1,0 +1,16 @@
+Playtime Counts 4 Terraria (WaRNING READ DESC)
+
+This is a modification for tModLoader that will cause it to count for Playtime in Terraria.
+This also will grant achievements.
+Future plans:
+1) Add a mod config to disable achievements being granted
+
+WARNING: As this modifies the tModloader Installation, please note the following:
+1) tModLoader dev team is not responsible for providing support for this workshop item
+2) this is not a supported modification by the tmodloader dev team, and is a separate add-on I've produced
+3) You MUST launch with start-tmodloader.bat (windows) / start-tmodloader.sh (unix) instead of through Steam. This modification does NOT support launching from Steam
+4) Disabling this mod may lead to unexpected behaviour when it comes time for the game to close. 
+	a) If this mod is disabled while closing the game and has been loaded previously, please make sure to check out Task Manager (or equivalent) to end the .net host process that is used by this modification.
+	b) Alternatively, in the TModInstallFolder\Libraries\TerrariaConnection\io.txt, you can type "unload" and save the file, this will close the extra process.
+5) This mod will only take effect on the next launch following first enabling it. It is recommended to restart the game after first enabling
+6) To uninstall, you have to both delete this mod, and the start-tmodloader.sh/.bat + Libraries/TerrariaConnection files in the TModInstallFolder, followed by verifying the tmodloader installe start-tmodloader.sh/.bat + Libraries/TerrariaConnection files in the TModInstallFolder, followed by verifying the tmodloader install

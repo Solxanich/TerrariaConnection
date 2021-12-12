@@ -1,0 +1,4 @@
+displayName = Playtime Counts 4 Terraria (WaRNING READ DESC)
+author = Solxan
+version = 0.1.1
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, TerrariaConnection*, StartScript*
